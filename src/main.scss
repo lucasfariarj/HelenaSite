@@ -1,0 +1,23 @@
+$primary: #830304;
+$secondary: #4D4D4C;
+$white: #fff;
+$light: rgba(148, 148, 148, 0.603);
+
+//Navbar
+$nav-link-color: $white;
+$nav-link-hover-color: $light;
+$navbar-dark-brand-color: $white;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "white": $white,
+  "light": $light,
+);
+
+$colors: (
+  "white": $white,
+);
+
+@import "../src/style.scss";
+@import "../node_modules/bootstrap/scss/bootstrap";

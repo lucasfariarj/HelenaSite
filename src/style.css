@@ -1,0 +1,23 @@
+body {
+  overflow-x: hidden;
+}
+
+.product-card {
+  border: 1px solid #830304;
+  width: 100%;
+}
+
+.product-img {
+  width: 150px;
+  display: block;
+}
+
+.benefits {
+  display: grid;
+}
+
+@media (max-width: 900px) {
+  .benefits {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
